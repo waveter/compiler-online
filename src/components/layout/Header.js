@@ -11,9 +11,9 @@ export default () => {
 
             <Navbar.Toggle target="nav-collapse"></Navbar.Toggle>
 
-            <Navbar.Collapse id="nav-collapse" is-nav>
-                <Nav class="ml-auto">
-                    <NavDropdown text="Lang" right>
+            <Navbar.Collapse id="nav-collapse">
+                <Nav className="ml-auto">
+                    <NavDropdown title="Lang">
                         <NavDropdown.Item href="#">EN</NavDropdown.Item>
                         <NavDropdown.Item href="#">ES</NavDropdown.Item>
                         <NavDropdown.Item href="#">RU</NavDropdown.Item>
